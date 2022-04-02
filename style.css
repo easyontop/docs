@@ -1,0 +1,96 @@
+code {
+  font-family: monospace;
+  background-color: #f7f7f7;
+  color: black;
+  border-radius: 6px;
+  word-wrap: break-word;
+  white-space: pre;
+  font-size: inherit;
+  box-sizing: border-box;
+  word-spacing: normal;
+  text-align: left;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+  padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+*, :before, :after {
+  box-sizing: border-box;
+}
+.js-k {
+  color: #d73a49;
+}
+.js-r {
+  color: #6f42c1;
+}
+.js-f {
+  color: #e36209;
+}
+.js-cl {
+  color: #005cc5;
+}
+.js-ent {
+  color: #22863a;
+}
+.js-tf {
+  color: #EEBC1D;
+}
+.js-undefined {
+  color: blue;
+}
+.js-com {
+  color: slategray;
+}
+.js-func2,
+.js-class {
+	color: #DD4A68;
+}
+.sh-npm {
+  color: gold;
+}
+.sh-cmd {
+  color: black;
+}
+.ts-i {
+  color: #d73a49;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.help {
+  cursor: help;
+}
+* {
+  box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6, div, p {
+  text-align:center;
+}
+li::before {
+  background-color:grey;
+  border-radius: 50%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightblue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkblue;
+}
